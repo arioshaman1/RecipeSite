@@ -13,12 +13,24 @@
       "PackagePath": "staticwebassets/css/background.jpeg"
     },
     {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/beaf.jpg",
+      "PackagePath": "staticwebassets/css/beaf.jpg"
+    },
+    {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/chesnok.jpg",
+      "PackagePath": "staticwebassets/css/chesnok.jpg"
+    },
+    {
       "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/create.css",
       "PackagePath": "staticwebassets/css/create.css"
     },
     {
       "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/details.css",
       "PackagePath": "staticwebassets/css/details.css"
+    },
+    {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/harcho.jpg",
+      "PackagePath": "staticwebassets/css/harcho.jpg"
     },
     {
       "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/index1.css",
@@ -31,6 +43,10 @@
     {
       "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/lavash.jpg",
       "PackagePath": "staticwebassets/css/lavash.jpg"
+    },
+    {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/leha.jpg",
+      "PackagePath": "staticwebassets/css/leha.jpg"
     },
     {
       "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/site.css",

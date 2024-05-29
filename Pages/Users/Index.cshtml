@@ -16,20 +16,22 @@ ViewData["Title"] = "Index";
     <table class="table">
         <thead>
         <tr>
-            <th>@Html.DisplayNameFor(model => model.User[0].Photo)</th>
+            <th>Фото</th>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].Recept)
+                Описание
             </th>
 
-            <th>@Html.DisplayNameFor(model => model.User[0].Type)</th>
+            <th>Тип блюда</th>
             
         </tr>
+        
         </thead>
         <tbody>
         @foreach (var item in Model.User)
         {
             <tr>
-                <td><img src="@item.Photo" alt="Изображение" class="recipe-image" />
+                
+                <td><img src="@item.Photo" alt="Изображение" class="recipe-image"/>
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Recept)
@@ -37,11 +39,11 @@ ViewData["Title"] = "Index";
                 <td>
                     @Html.DisplayFor(modelItem => item.Type)
                 </td>
-                
+
 
                 <td>
                     <td>
-                        <a asp-page="./Details" asp-route-id="@item.ID" class="btn btn-details">Подробнее о рецепте</a> 
+                        <a asp-page="./Details" asp-route-id="@item.ID" class="btn btn-details">Подробнее о рецепте</a>
                     </td>
 
                 </td>

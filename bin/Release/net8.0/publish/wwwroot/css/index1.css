@@ -1,0 +1,95 @@
+/* Стили для блока с фоновым изображением и эффектом размытия */
+.background-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('back.webp'); /* Замените на фактический путь к вашему изображению */
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+/* Стили для основного контента страницы */
+.content {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8); /* Светлый полупрозрачный фон для улучшения контраста текста */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px; /* Отступ сверху, чтобы контент не налезал на фоновое изображение */
+}
+
+/* Стили для кнопок */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Стили для таблицы */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table .table {
+    background-color: #fff;
+}
+/* Стили для кнопок "Edit", "Details" и "Delete" */
+.btn-edit {
+ /* Зеленый цвет */
+
+}
+
+.btn-edit:hover {
+    background-color: #4f5050; /* Темно-зеленый цвет при наведении */
+    border-color: #218838;
+}
+
+.btn-details {
+
+}
+
+.btn-details:hover {
+    background-color: #4f5050; /* Темно-синий цвет при наведении */
+    border-color: #4f5050;
+}
+
+.btn-delete {
+    background-color: #dc3545; /* Красный цвет */
+    border-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333; /* Темно-красный цвет при наведении */
+    border-color: #c82333;
+}
+.recipe-image {
+    width: 100px; /* Ширина изображения */
+    height: 100px; /* Высота изображения */
+    object-fit: cover; /* Заполнение контейнера без искажения изображения */
+}
+

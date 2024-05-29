@@ -1,0 +1,88 @@
+/* Стили для кнопок */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Стили для фонового изображения */
+.background-image {
+    background-image: url("back.webp"); /* Укажите путь к вашему фоновому изображению */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Высота по высоте видимой области */
+    width: 100%; /* Ширина по ширине видимой области */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Поместить за основным контентом */
+    opacity: 0.5; /* Прозрачность фонового изображения */
+    filter: blur(10px);
+}
+
+/* Общие стили для страницы */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    
+}
+
+/* Стили для заголовков */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Стили для списков */
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt, dd {
+    flex: 0 0 50%; /* Распределить элементы по двум колонкам */
+}
+
+dt {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+dd {
+    margin-bottom: 1rem;
+}
+
+/* Стили для ссылок */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+.recipe-image {
+    width: 200px; /* Задайте ширину */
+    height: 200px; /* Задайте высоту */
+    object-fit: cover; /* Чтобы изображение полностью заполняло свой контейнер */
+}

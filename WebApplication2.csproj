@@ -20,8 +20,10 @@
     <ItemGroup>
       <None Include="wwwroot\css\back.webp" />
       <None Include="wwwroot\css\background.jpeg" />
+      <None Include="wwwroot\css\beaf.jpg" />
       <None Include="wwwroot\css\chesnok.jpg" />
       <None Include="wwwroot\css\harcho.jpg" />
+      <None Include="wwwroot\css\julien.jpg" />
       <None Include="wwwroot\css\kuskus.jpg" />
       <None Include="wwwroot\css\lavash.jpg" />
       <None Include="wwwroot\css\leha.jpg" />
