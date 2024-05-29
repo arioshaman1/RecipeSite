@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets/WebApplication2.bundle.scp.css"
     },
     {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/back.webp",
+      "PackagePath": "staticwebassets/css/back.webp"
+    },
+    {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/background.jpeg",
+      "PackagePath": "staticwebassets/css/background.jpeg"
+    },
+    {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/create.css",
+      "PackagePath": "staticwebassets/css/create.css"
+    },
+    {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/details.css",
+      "PackagePath": "staticwebassets/css/details.css"
+    },
+    {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/index1.css",
+      "PackagePath": "staticwebassets/css/index1.css"
+    },
+    {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/kuskus.jpg",
+      "PackagePath": "staticwebassets/css/kuskus.jpg"
+    },
+    {
+      "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/lavash.jpg",
+      "PackagePath": "staticwebassets/css/lavash.jpg"
+    },
+    {
       "Id": "/Users/andrejadajkin/RiderProjects/WebApplication2/WebApplication2/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

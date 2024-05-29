@@ -1,0 +1,65 @@
+@page
+@model WebApplication2.Pages.Users.IndexModel
+
+@{
+ViewData["Title"] = "Index";
+}
+<head>
+    <link rel="stylesheet" href="~/css/index1.css" asp-append-version="true"/>
+</head>
+<!-- Блок с фоновым изображением и эффектом размытия -->
+<div class="background-blur"></div>
+
+<!-- Основной контент страницы -->
+<div class="content">
+    <h1>Рецепты</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.User[0].Photo)</th>
+            <th>
+                @Html.DisplayNameFor(model => model.User[0].Recept)
+            </th>
+
+            <th>@Html.DisplayNameFor(model => model.User[0].Type)</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.User)
+        {
+            <tr>
+                <td><img src="@item.Photo" alt="Изображение" class="recipe-image" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Recept)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+
+
+                <td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.ID" class="btn btn-edit">Изменить рецепт</a> |
+                        <a asp-page="./Details" asp-route-id="@item.ID" class="btn btn-details">Рецепт полностью</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.ID" class="btn btn-delete">Удалить рецепт</a>
+                    </td>
+
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <p>
+        <a asp-page="Create" class="btn btn-primary">Добавьте новый рецепт</a>
+    </p>
+</div>
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2024 - Все права на материалы, находящиеся на сайте RecipeManager, охраняются в соответствии с действующим законодательством. При любом использовании материалов сайта, гиперссылка (hyperlink) на RecipeManager обязательна.
+
+        Администрация сайта не несет ответственности за результат применения приведенных кулинарных рецептов, методик их приготовления, кулинарных и прочих рекомендаций, работоспособность ресурсов, на которые размещены гиперссылки, и за содержание рекламных объявлений. Администрация сайта может не разделять мнения авторов статей, размещённых на сайте RecipeManager
+
+    </div>
+</footer>

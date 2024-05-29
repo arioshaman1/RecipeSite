@@ -13,19 +13,46 @@
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="User.ID" />
             <div class="form-group">
-                <label asp-for="User.Name" class="control-label"></label>
-                <input asp-for="User.Name" class="form-control" />
-                <span asp-validation-for="User.Name" class="text-danger"></span>
+                <label asp-for="User.ID" class="control-label">ID</label>
+                <input asp-for="User.ID" class="form-control" />
+                <span asp-validation-for="User.ID" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="User.Email" class="control-label"></label>
-                <input asp-for="User.Email" class="form-control" />
-                <span asp-validation-for="User.Email" class="text-danger"></span>
+                <label asp-for="User.Recept" class="control-label">Название рецепта</label>
+                <input asp-for="User.Recept" class="form-control" />
+                <span asp-validation-for="User.Recept" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <label asp-for="User.Description" class="control-label">Опишите ваше блюдо</label>
+                <input asp-for="User.Description" class="form-control description-input" />
+                <span asp-validation-for="User.Description" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="User.Type" class="control-label">Выберите тип блюда</label>
+                <select asp-for="User.Type" class="form-control">
+                    <option value="Первое блюдо">Первое блюдо</option>
+                    <option value="Второе блюд">Второе блюдо</option>
+                    <option value="Салат">Салат</option>
+                    <option value="Десерт">Десерт</option>
+                </select>
+                <span asp-validation-for="User.Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.Description" class="control-label">Введите url фото</label>
+                <input asp-for="User.Photo" class="form-control"/>
+                <span asp-validation-for="User.Photo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.Sposob" class="control-label">Добавьте способ приготовления блюда</label>
+                <input asp-for="User.Sposob" class="form-control"/>
+                <span asp-validation-for="User.Sposob" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Создать" class="btn btn-primary" />
             </div>
         </form>
     </div>
@@ -34,4 +61,22 @@
 <div>
     <a asp-page="./Index">Back to List</a>
 </div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2024 - Все права на материалы, находящиеся на сайте RecipeManager, охраняются в соответствии с действующим законодательством. При любом использовании материалов сайта, гиперссылка (hyperlink) на RecipeManager обязательна.
+
+        Администрация сайта не несет ответственности за результат применения приведенных кулинарных рецептов, методик их приготовления, кулинарных и прочих рекомендаций, работоспособность ресурсов, на которые размещены гиперссылки, и за содержание рекламных объявлений. Администрация сайта может не разделять мнения авторов статей, размещённых на сайте RecipeManager
+
+    </div>
+</footer>

@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Pages\Users\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
         <PrivateAssets>all</PrivateAssets>
@@ -19,6 +15,16 @@
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
       <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
       <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\css\back.webp" />
+      <None Include="wwwroot\css\background.jpeg" />
+      <None Include="wwwroot\css\chesnok.jpg" />
+      <None Include="wwwroot\css\harcho.jpg" />
+      <None Include="wwwroot\css\kuskus.jpg" />
+      <None Include="wwwroot\css\lavash.jpg" />
+      <None Include="wwwroot\css\leha.jpg" />
     </ItemGroup>
 
 </Project>
